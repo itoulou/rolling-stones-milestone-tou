@@ -1,10 +1,23 @@
 body {
-    font-family: "Marcellus, sans-serif";
+    font-family: "Marcellus", sans-serif;
 
+}
+.header-section-break{
+    width: 40px;
+    height: 3px;
+    background-color: #d03e3e;
+    margin-top: 20px;
+}
+
+.section-footer-break{
+    width: 40px;
+    height: 3px;
+    background-color: #fafafa;
+    margin-top: 20px;
 }
 
 
-/*Logo*/
+/*Background image---------------------------------------------*/
 .container-header {
     height: 100vh;
      background: url('../img/band_project_stage.jpg') no-repeat center center fixed;
@@ -12,17 +25,97 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    align-items: center; 
 
 }
 
-/*Header*/
-
-
-
+/*Header-------------------------------------------*/
 .jumbotron-styles {
+    margin-top:50px;
     background: rgba(0, 0, 0, 0);
+    
+}
+.jumbotron-styles p{
+     padding-top: 50px;
+    font-size: 18px;
+    color: #fafafa;
+    letter-spacing: 3px;
+}
+.jumbotron-styles h1{
+    font-size: 100px;
+    color: #fafafa;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.jumbotron-styles h4{
+    color: #fafafa;
+    letter-spacing: 3px;
+}
+.stars-styles{
+    color: #fafafa;
+    font-size: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.stars-styles li{
+    padding: 20px 30px 30px 0;    
 }
 
-/*navbar*/
+.star-style-dash{
+    font-size: 50px;
+    color: #fafafa;
+    list-style-type: none;
+    
+}
 
 
+/*navbar---------------------------------------*/
+#nav li{
+    margin-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-right: 1px solid;
+    border-right-color: #ffffff; 
+}
+#nav li:last-child{
+    border-right:none;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#nav li a span{
+    font-family: "Marcellus", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+#nav li a:hover{
+    text-decoration: none;
+    color: #d03e3e;
+}
+
+/*footer---------------------------------------*/
+
+.container-footer{
+    background-color: #d03e3e;
+}
+.container-footer h3{
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: bold;
+}
+.social-links{
+   padding-bottom: 20px;
+}
+
+.social-links li a{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    padding: 0 30px;
+    color: #fafafa;
+}
