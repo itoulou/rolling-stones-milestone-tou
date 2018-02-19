@@ -1,0 +1,28 @@
+body {
+    font-family: "Marcellus, sans-serif";
+
+}
+
+
+/*Logo*/
+.container-header {
+    height: 100vh;
+     background: url('../img/band_project_stage.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+/*Header*/
+
+
+
+.jumbotron-styles {
+    background: rgba(0, 0, 0, 0);
+}
+
+/*navbar*/
+
+
