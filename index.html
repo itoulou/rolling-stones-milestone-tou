@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,15 +15,15 @@
 
 <body>
     <!----------------------------------------------------------------------------------------------------------Header -->
-    <div class="container-fluid container-header">
+    <div class="container-fluid container-header"> <!-- Bootrstrap "container-fluid" class-->
         <header class="bg-img">
             <div class="row">
-                <ul id="nav" class="list-inline text-center">
+                <ul id="nav" class="list-inline text-center"> <!-- Bootrstrap "list-inline" and "text-center" class-->
                     <li>
                         <a href="index.html"><span>Home</span></a>
                     </li>
                     <li>
-                        <a href="#"><span>Gallery</span></a>
+                        <a href="gallery.html"><span>Gallery</span></a>
                     </li>
                     <li>
                         <a href="#"><span>Events</span></a>
@@ -31,11 +32,11 @@
                         <a href="#"><span>Contact</span></a>
                     </li>
                 </ul>
-                <div class="jumbotron text-center jumbotron-styles">
+                <div class="jumbotron text-center jumbotron-styles"><!-- Bootrstrap "jumbotron" class-->
                     <p>Lorem ipsumssitatibus libero deleniti.</p>
-                    <h1>Band Name</h1>
+                    <h1>Rolling Stones</h1>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
-                    <ul class="stars-styles list-inline text-center">
+                    <ul class="stars-styles list-inline text-center hidden-xs"><!-- Bootrstrap "text-center" and "hidden-xs" class-->
                         <li class="star-style-dash">-</li>
                         <li class="glyphicon glyphicon-star"></li>
                         <li class="glyphicon glyphicon-star"></li>
@@ -49,53 +50,60 @@
         </header>
     </div>
     <!----------------------------------------------------------------------------------------------------------Section-->
-    <div class="container-fluid container-section">
-        <section class="">
-            <div class="text-center">
+    <div class="container-fluid container-section"><!-- Bootrstrap "container-fluid" class-->
+        <section>
+            <div class="text-center"><!-- Bootrstrap "text-center" class-->
                 <h3>Feedback</h3>
                 <hr class="header-section-break">
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <blockquote>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, incidunt!</p>
-                        <footer>Made up name from London</footer>
-                    </blockquote>
-                    <blockquote>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, ab? </p>
-                        <footer>Made up name from London</footer>
-                    </blockquote>
+                    <div class="profile-pics">
+                        <div class="media"><!-- Bootrstrap "media" class-->
+                            <div class=" media-left hidden-xs"><!-- Bootrstrap "media-left" and "hidden-xs" class-->
+                                <img src="../img/profile-pic-smiley.jpg" class="img-circle media-object" height=100 width=100>
+                            </div>
+                            <div class="media-body  blockquote-styles"><!-- Bootrstrap "media-body" class-->
+                                <blockquote><!-- Bootrstrap blockquote-->
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, incidunt!"</p>
+                                    <footer>Made up name from London</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6">
-                    <blockquote>
-                        <p>Lorem ipsum dolor.</p>
-                        <footer>Made up name from London</footer>
-                    </blockquote>
-                    <blockquote>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, sunt quis.</p>
-                        <footer>Made up name from London</footer>
-                    </blockquote>
+                    <div class="profile-pics">
+                        <div class="media"><!-- Bootrstrap "media" class-->
+                            <div class="media-left hidden-xs"><!-- Bootrstrap "media-left" and "hidden-xs" class-->
+                                <img src="../img/profile-pic-lady.jpg" class="img-circle media-object" height=100 width=100>
+                            </div>
+                            <div class="media-body  blockquote-styles"><!-- Bootrstrap "media-body" class-->
+                                <blockquote><!-- Bootrstrap blockquote-->
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, ab?" </p>
+                                    <footer>Made up name from London</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
     <!----------------------------------------------------------------------------------------------------------Footer -->
-    <div class="container-fluid container-footer">
+    <div class="container-fluid container-footer"><!-- Bootrstrap "container-fluid" class-->
         <footer>
             <div>
-                <div class="text-center">
+                <div class="text-center"><!-- Bootrstrap "text-center" class-->
                     <div class="">
                         <h3>Find us on</h3>
                         <hr class="section-footer-break">
                     </div>
                     <div>
-                        <ul class="list-inline social-links">
-                            <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                        <ul class="list-inline social-links"><!-- Bootrstrap "list-inline" class-->
+                            <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li> <!-- Bootrstrap font awesome class-->
+                            <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li> <!-- Bootrstrap font awesome class-->
+                            <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li> <!-- Bootrstrap font awesome class-->
                         </ul>
                     </div>
                 </div>
