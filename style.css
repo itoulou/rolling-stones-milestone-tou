@@ -37,7 +37,7 @@ body {
     
 }
 .jumbotron-styles p{
-     padding-top: 50px;
+    padding-top: 50px;
     font-size: 18px;
     color: #fafafa;
     letter-spacing: 3px;
@@ -105,9 +105,17 @@ body {
 /*section-------------------------- home-------------*/
 
 .blockquote-styles blockquote{
-    border-left-color: #d03e3e;
-    border-left-width: medium;
+    border-left-color: #ffffff;
     margin-bottom: 30px;
+    
+}
+.blockquote-styles blockquote p{
+    letter-spacing: .75px;
+}
+
+
+.quote-footer-styles{
+    color: #d03e3e;
 }
 
 .profile-pics{
