@@ -37,7 +37,7 @@ body {
     
 }
 .jumbotron-styles p{
-    padding-top: 50px;
+     padding-top: 50px;
     font-size: 18px;
     color: #fafafa;
     letter-spacing: 3px;
@@ -110,7 +110,7 @@ body {
     
 }
 .blockquote-styles blockquote p{
-    letter-spacing: .75px;
+    letter-spacing: .7px;
 }
 
 
@@ -140,6 +140,15 @@ body {
     border-radius: 3px;
 }
 
+.album{
+    background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 350px;
+        margin: 5px;
+}
+
 
 /*footer---------------------------------------*/
 
@@ -157,6 +166,7 @@ body {
 
 .social-links li{
     margin-top: 15px;
+    padding: 10px;
 }
 
 .social-links li a{
