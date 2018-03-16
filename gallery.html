@@ -16,11 +16,20 @@
 <body>
     <!----------------------------------------------------------------------------------------------------------Header -->
     <div class="container-fluid container-header">
-        <!-- Bootrstrap "container-fluid" class-->
         <header class="bg-img">
             <div class="row">
-                <ul id="nav" class="list-inline text-center">
-                    <!-- Bootrstrap "list-inline" and "text-center" class-->
+                <nav class="navbar-mobile hidden-sm hidden-md hidden-lg">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle glyphicon glyphicon-menu-hamburger " type="button" data-toggle="dropdown"><span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <ul id="nav" class="list-inline text-center hidden-xs ">
                     <li>
                         <a href="index.html"><span>Home</span></a>
                     </li>
@@ -36,7 +45,7 @@
                 </ul>
                 <div class="jumbotron text-center jumbotron-styles">
                     <!-- Bootrstrap "jumbotron" class-->
-                    <p class="hidden-xs">Lorem ipsumssitatibus libero deleniti.</p>
+                    <p>Lorem ipsumssitatibus libero deleniti.</p>
                     <h1>Rolling Stones</h1>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
                     <ul class="stars-styles list-inline text-center hidden-xs">
@@ -57,6 +66,10 @@
     <div class="container-fluid container-section-gallery">
 
         <section>
+            <div class="text-center section-title-styles">
+                <h3>Albums you love!</h3>
+                <hr class="header-section-break">
+            </div>
             <div class="section-styles-gallery">
                 <div class="row">
                     <div class="col-xs-6 col-md-4">
@@ -88,6 +101,59 @@
                         <a href="https://www.youtube.com/watch?v=Mq11RKjAB3s&list=PLSapYOaKRrraqbw6AdhLMkIbko5mc3yMS" target="_blank" class="thumbnail">
                             <img src="../img/rollingStonesImages/the-rolling-stones-1960s.jpg" alt="album cover 1960" height=500px width=500px  class="hvr-grow">
                         </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="text-center section-title-styles">
+                            <h3>Check out their new stuff!</h3>
+                            <hr class="header-section-break">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 text-center new-album-img-styles">
+                        <a href="https://www.youtube.com/watch?v=hfKF6ZeK41w&list=PLneuOis5eCgYKuKdIj1LxbDf0lYByG-Py">
+                            <img src="../img/rollingStonesImages/new-album.jpg" alt="new album" height="250px" width="250px">
+                        </a>
+                    </div>
+                </div>
+                <div class="row new-ablum-styles">
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=PacX2YgdLOo">Just Your Fool</a></h5>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=JwbONEAPJs0">Commit A Crime</a></h5>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=cuqqRAoCFIc">Blue And Lonesome</a></h5>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=3fSp6D9NFRw">All Of Your Love</a></h5>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=RRxKHNYnL8c">I Gotta Go</a></h5>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=iYR75WolQAA">Everybody Knows About My Good Thing</a></h5>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=6lfFEpQB_gc">Ride ‘Em On Down</a></h5>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=uVfBEwv4bvA">Hate To See You Go</a></h5>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=vGzhQpOHO2U">Hoo Doo Blues</a></h5>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=vA0SviVW5Zk">Little Rain</a></h5>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=orMpEzEW9mA">Just Like I Treat You</a></h5>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h5><a href="https://www.youtube.com/watch?v=Rqyb_pceUsY">I Can’t Quit You Baby</a></h5>
                     </div>
                 </div>
             </div>
@@ -130,7 +196,8 @@
             </div>
         </footer>
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>

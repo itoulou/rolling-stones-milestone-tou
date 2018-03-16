@@ -43,7 +43,7 @@ body {
     letter-spacing: 3px;
 }
 .jumbotron-styles h1{
-    font-size: 100px;
+    font-size: 77px;
     color: #fafafa;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -57,6 +57,7 @@ body {
     font-size: 30px;
     margin: 20px 0 0 0;
     padding-top: 20px;
+    padding-left: 39px
 }
 .stars-styles li{
     padding: 20px 30px 30px 0;    
@@ -69,8 +70,14 @@ body {
     
 }
 
+@media (min-width: 768px){
+    .jumbotron-styles h1{
+        font-size: 100px;
+    }
+}
 
-/*navbar---------------------------------------*/
+
+/*navbar---------------------------Desktop------------*/
 
 
 #nav li{
@@ -102,6 +109,46 @@ body {
     color: #d03e3e;
 }
 
+/*navbar--------------------------Mobile-------------*/
+.navbar-mobile{
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.navbar-mobile button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #d03e3e;
+    font-size: 26px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.navbar-mobile .dropdown-menu{
+    list-style: none;
+    margin: 0;
+    
+}
+
+.dropdown-menu li a{
+   color: #000;
+
+}
+
+.caret {
+    display: none;
+}
+
+.dropdown-toggle:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #d03e3e;
+}
+
+
 /*section-------------------------- home-------------*/
 
 .blockquote-styles blockquote{
@@ -122,6 +169,10 @@ body {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+.section-title-styles h3{
+    color: #d03e3e;
+    margin: 20px;
+}
 
 
 /*section-------------------------- Gallery-------------*/
@@ -129,16 +180,13 @@ body {
 .container-section-gallery{
     height: 100%;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .section-styles-gallery a{
     border:none;
 }
-.section-styles-gallery a img:hover{
-    border: 2px solid;
-    border-color: #d03e3e;
-    border-radius: 3px;
-}
+
 
 .album{
     background-size: contain;
@@ -148,6 +196,32 @@ body {
         height: 350px;
         margin: 5px;
 }
+
+.section-styles-gallery .new-album-img-styles a img{
+    border-radius: 50%;
+    margin: 30px
+}
+
+.section-styles-gallery .new-album-img-styles a img:hover{
+    border: none;
+    
+}
+
+.section-styles-gallery .new-ablum-styles a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #d03e3e;
+    letter-spacing: .5px;
+}
+.section-styles-gallery .new-ablum-styles a:hover{
+    color: #0000fe;
+}
+
+.section-styles-gallery .new-ablum-styles h5{
+    margin: 30px;
+}
+
+
 
 
 /*footer---------------------------------------*/
