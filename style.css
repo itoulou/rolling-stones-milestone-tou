@@ -30,11 +30,38 @@ body {
 
 }
 
+.container-header-gallery{
+    height: 100vh;
+    /*code taken from https://css-tricks.com/ */
+     background: url('../img/gallery-jumbotron-image.jpg') no-repeat center center fixed; /*image from http://www.petercousens.com/ */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center; 
+}
+
+.container-header-events{
+    height: 100vh;
+    /*code taken from https://css-tricks.com/ */
+     background: url('../img/events-jumbotron-image.jpg') no-repeat center center fixed; /*image from http://www.petercousens.com/ */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center; 
+}
+
 /*Header-------------------------------------------*/
 .jumbotron-styles {
-    margin-top:50px;
+    margin-top:-50px;
     background: rgba(0, 0, 0, 0);
     
+}
+@media (min-width:768px){
+    .jumbotron-styles {
+        margin-top:50px;
+    }
 }
 .jumbotron-styles p{
      padding-top: 50px;
@@ -114,7 +141,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .2)
+    background-color: rgba(0, 0, 0, 0)
 }
 
 .navbar-mobile button{
@@ -185,44 +212,71 @@ body {
 
 .section-styles-gallery a{
     border:none;
-}
-
-
-.album{
-    background-size: contain;
-        background-position: center center;
-        background-repeat: no-repeat;
-        width: 350px;
-        height: 350px;
-        margin: 5px;
-}
-
-.section-styles-gallery .new-album-img-styles a img{
-    border-radius: 50%;
-    margin: 30px
-}
-
-.section-styles-gallery .new-album-img-styles a img:hover{
-    border: none;
     
 }
+@media (min-width: 1024px){
+    
+    .section-styles-gallery .new-ablum-styles{
+        padding-top: 60px
+    }
+}
+.section-styles-gallery .album-cover-styles a img{
+    border-radius: 10px;
+}
+
 
 .section-styles-gallery .new-ablum-styles a{
     text-decoration: none;
     font-weight: 600;
-    color: #d03e3e;
+    color: #ff001e;
     letter-spacing: .5px;
 }
 .section-styles-gallery .new-ablum-styles a:hover{
-    color: #0000fe;
+    color: #fafafa;
+    background-color: rgba(255, 0, 30, .5);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .section-styles-gallery .new-ablum-styles h5{
     margin: 30px;
 }
 
+.section-styles-gallery .new-album-bg-img{
+    background: url('../img/rollingStonesImages/new-album-2.jpg') no-repeat center center; /*image from http://www.petercousens.com/ */
+    background-size: cover;
+    height: 600px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 10px;
+    
+    
+}
 
+.section-styles-gallery .band-photos-bg-img{
+    background: url('../img/rollingStonesImages/collage.jpg') no-repeat center center; /*image from http://www.petercousens.com/ */
+    background-size: cover;
+    height: 1000px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 10px;
+}
 
+/*section-------------------------- Events-------------*/
+.container-section-events{
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.events-form-image{
+    background: url('../img/events-form-image.jpg') no-repeat center center; /*image from http://www.petercousens.com/ */
+    background-size: cover;
+    height: 600px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 10px;
+}
 
 /*footer---------------------------------------*/
 
