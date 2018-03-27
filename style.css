@@ -2,14 +2,15 @@ body {
     font-family: "Marcellus", sans-serif;
 
 }
-.header-section-break{
+
+.header-section-break {
     width: 40px;
     height: 3px;
     background-color: #d03e3e;
     margin-top: 20px;
 }
 
-.section-footer-break{
+.section-footer-break {
     width: 40px;
     height: 3px;
     background-color: #fafafa;
@@ -18,87 +19,103 @@ body {
 
 
 /*Background image---------------------------------------------*/
+
 .container-header {
     height: 100vh;
     /*code taken from https://css-tricks.com/ */
-     background: url('../img/band_project_stage_3.jpg') no-repeat center center fixed; /*image from http://www.petercousens.com/ */
+    background: url('../img/band_project_stage_3.jpg') no-repeat center center fixed;
+    /*image from http://www.petercousens.com/ */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    align-items: center; 
+    align-items: center;
 
 }
 
-.container-header-gallery{
+.container-header-gallery {
     height: 100vh;
     /*code taken from https://css-tricks.com/ */
-     background: url('../img/gallery-jumbotron-image.jpg') no-repeat center center fixed; /*image from http://www.petercousens.com/ */
+    background: url('../img/gallery-jumbotron-image.jpg') no-repeat center center fixed;
+    /*image from http://www.petercousens.com/ */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    align-items: center; 
+    align-items: center;
 }
 
-.container-header-events{
+.container-header-events {
     height: 100vh;
     /*code taken from https://css-tricks.com/ */
-     background: url('../img/events-jumbotron-image.jpg') no-repeat center center fixed; /*image from http://www.petercousens.com/ */
+    background: url('../img/events-jumbotron-image.jpg') no-repeat center center fixed;
+    /*image from http://www.petercousens.com/ */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    align-items: center; 
+    align-items: center;
+
 }
 
 /*Header-------------------------------------------*/
+
 .jumbotron-styles {
-    margin-top:-50px;
+    margin-top: -50px;
     background: rgba(0, 0, 0, 0);
-    
+
 }
-@media (min-width:768px){
+
+@media (min-width:768px) {
     .jumbotron-styles {
-        margin-top:50px;
+        margin-top: 50px;
     }
 }
-.jumbotron-styles p{
-     padding-top: 50px;
+
+.jumbotron-styles p {
+    padding-top: 50px;
     font-size: 18px;
     color: #fafafa;
     letter-spacing: 3px;
+    font-weight: 900;
 }
-.jumbotron-styles h1{
+
+.jumbotron-styles h1 {
     font-size: 77px;
     color: #fafafa;
     letter-spacing: 3px;
     text-transform: uppercase;
+    font-weight: 900;
+
 }
-.jumbotron-styles h4{
+
+.jumbotron-styles h4 {
     color: #fafafa;
     letter-spacing: 3px;
+    font-weight: 900;
 }
-.stars-styles{
+
+.stars-styles {
     color: #fafafa;
     font-size: 30px;
     margin: 20px 0 0 0;
     padding-top: 20px;
     padding-left: 39px
 }
-.stars-styles li{
-    padding: 20px 30px 30px 0;    
+
+.stars-styles li {
+    padding: 20px 30px 30px 0;
 }
 
-.star-style-dash{
+.star-style-dash {
     font-size: 50px;
     color: #fafafa;
     list-style-type: none;
-    
+
 }
 
-@media (min-width: 768px){
-    .jumbotron-styles h1{
+@media (min-width: 768px) {
+    .jumbotron-styles h1 {
         font-size: 100px;
     }
 }
@@ -106,45 +123,46 @@ body {
 
 /*navbar---------------------------Desktop------------*/
 
-
-#nav li{
+#nav li {
     margin-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
     border-right: 1px solid;
     border-right-color: #ffffff;
-    
-}
-#nav li:last-child{
-    border-right:none;
+
 }
 
-#nav li a{
+#nav li:last-child {
+    border-right: none;
+}
+
+#nav li a {
     text-decoration: none;
     color: #ffffff;
 }
 
-#nav li a span{
+#nav li a span {
     font-family: "Marcellus", sans-serif;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 4px;
 }
 
-#nav li a:hover{
+#nav li a:hover {
     text-decoration: none;
     color: #d03e3e;
 }
 
 /*navbar--------------------------Mobile-------------*/
-.navbar-mobile{
+
+.navbar-mobile {
     top: 0;
     right: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0)
 }
 
-.navbar-mobile button{
+.navbar-mobile button {
     border: none;
     background-color: rgba(0, 0, 0, 0);
     color: #d03e3e;
@@ -155,14 +173,14 @@ body {
     margin-bottom: 10px;
 }
 
-.navbar-mobile .dropdown-menu{
+.navbar-mobile .dropdown-menu {
     list-style: none;
     margin: 0;
-    
+
 }
 
-.dropdown-menu li a{
-   color: #000;
+.dropdown-menu li a {
+    color: #000;
 
 }
 
@@ -170,7 +188,7 @@ body {
     display: none;
 }
 
-.dropdown-toggle:hover{
+.dropdown-toggle:hover {
     background-color: rgba(0, 0, 0, 0);
     color: #d03e3e;
 }
@@ -178,25 +196,27 @@ body {
 
 /*section-------------------------- home-------------*/
 
-.blockquote-styles blockquote{
+.blockquote-styles blockquote {
     border-left-color: #ffffff;
     margin-bottom: 30px;
-    
+
 }
-.blockquote-styles blockquote p{
+
+.blockquote-styles blockquote p {
     letter-spacing: .7px;
 }
 
 
-.quote-footer-styles{
+.quote-footer-styles {
     color: #d03e3e;
 }
 
-.profile-pics{
+.profile-pics {
     margin-top: 20px;
     margin-bottom: 40px;
 }
-.section-title-styles h3{
+
+.section-title-styles h3 {
     color: #d03e3e;
     margin: 20px;
 }
@@ -204,57 +224,68 @@ body {
 
 /*section-------------------------- Gallery-------------*/
 
-.container-section-gallery{
+.container-section-gallery {
     height: 100%;
     padding-top: 20px;
     padding-bottom: 30px;
 }
 
-.section-styles-gallery a{
-    border:none;
-    
+.section-styles-gallery a {
+    border: none;
+
 }
-@media (min-width: 1024px){
-    
-    .section-styles-gallery .new-ablum-styles{
-        padding-top: 60px
+
+.section-styles-gallery .new-ablum-styles-header {
+    font-size: 14px;
+    font-weight: 900;
+    color: #ff001e;
+}
+
+@media (min-width: 1024px) {
+
+    .section-styles-gallery .new-ablum-styles {
+        padding-top: 10px;
     }
 }
-.section-styles-gallery .album-cover-styles a img{
+
+.section-styles-gallery .album-cover-styles a img {
     border-radius: 10px;
 }
 
 
-.section-styles-gallery .new-ablum-styles a{
+.section-styles-gallery .new-ablum-styles a {
     text-decoration: none;
     font-weight: 600;
     color: #ff001e;
     letter-spacing: .5px;
 }
-.section-styles-gallery .new-ablum-styles a:hover{
+
+.section-styles-gallery .new-ablum-styles a:hover {
     color: #fafafa;
     background-color: rgba(255, 0, 30, .5);
     padding: 10px;
     border-radius: 10px;
 }
 
-.section-styles-gallery .new-ablum-styles h5{
+.section-styles-gallery .new-ablum-styles h5 {
     margin: 30px;
 }
 
-.section-styles-gallery .new-album-bg-img{
-    background: url('../img/rollingStonesImages/new-album-2.jpg') no-repeat center center; /*image from http://www.petercousens.com/ */
+.section-styles-gallery .new-album-bg-img {
+    background: url('../img/rollingStonesImages/new-album-2.jpg') no-repeat center center;
+    /*image from http://www.petercousens.com/ */
     background-size: cover;
     height: 600px;
     margin-left: 6px;
     margin-right: 6px;
     border-radius: 10px;
-    
-    
+
+
 }
 
-.section-styles-gallery .band-photos-bg-img{
-    background: url('../img/rollingStonesImages/collage.jpg') no-repeat center center; /*image from http://www.petercousens.com/ */
+.section-styles-gallery .band-photos-bg-img {
+    background: url('../img/rollingStonesImages/collage.jpg') no-repeat center center;
+    /*image from http://www.petercousens.com/ */
     background-size: cover;
     height: 1000px;
     margin-left: 6px;
@@ -263,14 +294,16 @@ body {
 }
 
 /*section-------------------------- Events-------------*/
-.container-section-events{
+
+.container-section-events {
     height: 100%;
     padding-top: 20px;
     padding-bottom: 30px;
 }
 
-.events-form-image{
-    background: url('../img/events-form-image.jpg') no-repeat center center; /*image from http://www.petercousens.com/ */
+.events-form-image {
+    background: url('../img/events-form-image.jpg') no-repeat center center;
+    /*image from http://www.petercousens.com/ */
     background-size: cover;
     height: 600px;
     margin-left: 6px;
@@ -278,36 +311,112 @@ body {
     border-radius: 10px;
 }
 
+.events-form-styles {
+    margin-top: 100px;
+    padding-right: 30px;
+}
+
+.events-form-styles input {
+    width: 66%;
+    background-color: rgba(0, 0, 0, 0);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid #fafafa;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+
+
+}
+/* https://stackoverflow.com/questions/1457849/how-to-remove-the-border-highlight-on-an-input-text-element*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+.events-form-styles button{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fafafa;
+    background-color: #d03e3e;
+    border-color: #d03e3e;
+    border-radius: 25px;
+}
+
+.events-form-styles input:last-child{
+        margin-left: -4px;
+        border-bottom: none;
+
+}
+
+.events-form-styles input::placeholder {
+    color: #d03e3e;
+    padding-bottom: -10px;
+    font-size: 18px;
+
+}
+
+.form-container {
+    height: 100%;
+}
+
+.form-detail-styles {
+    color: #fafafa;
+    border-right: solid 4px #d03e3e;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    margin-left: 15px;
+    width: 30%;
+    border-radius: 9px;
+
+}
+
+.form-detail-styles h3 {
+    padding: 10px;
+    margin-top: 200px;
+}
+
+.form-detail-styles h4 {
+    padding: 10px;
+}
+
 /*footer---------------------------------------*/
 
-.container-footer{
+.container-footer {
     background-color: #d03e3e;
 }
-.container-footer h3{
+
+.container-footer h3 {
     color: #fafafa;
     font-size: 30px;
     font-weight: bold;
 }
-.social-links{
-   padding-bottom: 20px;
+
+.social-links {
+    padding-bottom: 20px;
 }
 
-.social-links li{
+.social-links li {
     margin-top: 15px;
     padding: 10px;
 }
 
-.social-links li a{
+.social-links li a {
     width: 40px;
     height: 30px;
     margin: 15px;
     font-size: 30px;
     padding: 15px;
     color: #fafafa;
-   
+
 }
 
-.social-links li a:hover{
+.social-links li a:hover {
     border: 1px solid;
     border-color: #ea7373;
     background-color: #ea7373;
