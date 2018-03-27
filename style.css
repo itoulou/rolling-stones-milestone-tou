@@ -43,6 +43,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     align-items: center;
+    
 }
 
 .container-header-events {
@@ -238,7 +239,7 @@ body {
 .section-styles-gallery .new-ablum-styles-header {
     font-size: 14px;
     font-weight: 900;
-    color: #ff001e;
+    color: #fafafa;
 }
 
 @media (min-width: 1024px) {
@@ -264,7 +265,7 @@ body {
     color: #fafafa;
     background-color: rgba(255, 0, 30, .5);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 .section-styles-gallery .new-ablum-styles h5 {
@@ -300,6 +301,24 @@ body {
     padding-top: 20px;
     padding-bottom: 30px;
 }
+.events-info-img-1{
+    background: url('../img/events-info-img-1.jpg') no-repeat center center;
+    /*image from http://www.thedjservice.com/blog/wedding-dj-vs-wedding-band// */
+    background-size: cover;
+    height: 600px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 10px
+}
+.events-info-img-2{
+    background: url('../img/events-info-img-2.jpg') no-repeat center center;
+    /*image from https://film.wp.pl/firmowa-gwiazdka-biurowe-przeboje-recenzja-6067359094149761a */
+    background-size: cover;
+    height: 600px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 10px
+}
 
 .events-form-image {
     background: url('../img/events-form-image.jpg') no-repeat center center;
@@ -309,10 +328,11 @@ body {
     margin-left: 6px;
     margin-right: 6px;
     border-radius: 10px;
+    
 }
 
 .events-form-styles {
-    margin-top: 100px;
+    margin-top: 10px;
     padding-right: 30px;
 }
 
@@ -322,7 +342,7 @@ body {
     border-right: none;
     border-left: none;
     border-top: none;
-    border-bottom: 2px solid #fafafa;
+    border-bottom: 2px solid #ffffff;
     padding-top: 20px;
     padding-bottom: 0px;
     margin-top: 50px;
@@ -346,6 +366,7 @@ button:focus {
     background-color: #d03e3e;
     border-color: #d03e3e;
     border-radius: 25px;
+    letter-spacing: 1px;
 }
 
 .events-form-styles input:last-child{
@@ -363,15 +384,68 @@ button:focus {
 
 .form-container {
     height: 100%;
+    margin: 0;
 }
+.form-detail-styles-1{
+    color: #fafafa;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    border-radius: 9px;
+}
+.form-detail-styles-2{
+    color: #fafafa;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    border-radius: 9px;
+}
+
+@media (min-width: 768px){
+    .form-detail-styles-1{
+    color: #fafafa;
+    border-right: solid 4px #d03e3e;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    width: 33.3333%;
+    border-radius: 9px;
+    }
+    .form-detail-styles-2{
+    color: #fafafa;
+    border-right: solid 4px #d03e3e;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    width: 33.3333%;
+    border-radius: 9px;
+    }
+}
+
+.form-detail-styles-1 h3 {
+    padding: 10px;
+    margin-top: 200px;
+}
+
+.form-detail-styles-1 h4 {
+    padding: 10px;
+}
+
+.form-detail-styles-2 h3{
+     padding: 10px;
+    margin-top: 200px;
+}
+
+.form-detail-style-2 h4 {
+    padding: 10px;
+}
+
+
 
 .form-detail-styles {
     color: #fafafa;
     border-right: solid 4px #d03e3e;
     height: 100%;
-    background-color: rgba(0, 0, 0, .5);
-    margin-left: 15px;
-    width: 30%;
+    background-color: rgba(0, 0, 0, .7);
+    width: 33.3333%;
     border-radius: 9px;
 
 }
