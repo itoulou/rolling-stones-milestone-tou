@@ -37,20 +37,20 @@ body {
     height: 100vh;
     /*code taken from https://css-tricks.com/ */
     background: url('../img/gallery-jumbotron-image.jpg') no-repeat center center fixed;
-    /*image from http://www.petercousens.com/ */
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     align-items: center;
-    
+
 }
 
 .container-header-events {
     height: 100vh;
     /*code taken from https://css-tricks.com/ */
     background: url('../img/events-jumbotron-image.jpg') no-repeat center center fixed;
-    /*image from http://www.petercousens.com/ */
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,11 +59,23 @@ body {
 
 }
 
+.container-header-contact {
+    height: 100vh;
+    /*code taken from https://css-tricks.com/ */
+    background: url('../img/contact-jumbotron-image.jpg') no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+}
+
 /*Header-------------------------------------------*/
 
 .jumbotron-styles {
     margin-top: -50px;
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.08);
 
 }
 
@@ -140,6 +152,10 @@ body {
 #nav li a {
     text-decoration: none;
     color: #ffffff;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
 }
 
 #nav li a span {
@@ -251,14 +267,24 @@ body {
 
 .section-styles-gallery .album-cover-styles a img {
     border-radius: 10px;
+    
 }
-
+.hvr-grow{
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
 
 .section-styles-gallery .new-ablum-styles a {
     text-decoration: none;
     font-weight: 600;
     color: #ff001e;
     letter-spacing: .5px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
 }
 
 .section-styles-gallery .new-ablum-styles a:hover {
@@ -301,7 +327,8 @@ body {
     padding-top: 20px;
     padding-bottom: 30px;
 }
-.events-info-img-1{
+
+.events-info-img-1 {
     background: url('../img/events-info-img-1.jpg') no-repeat center center;
     /*image from http://www.thedjservice.com/blog/wedding-dj-vs-wedding-band// */
     background-size: cover;
@@ -310,7 +337,8 @@ body {
     margin-right: 6px;
     border-radius: 10px
 }
-.events-info-img-2{
+
+.events-info-img-2 {
     background: url('../img/events-info-img-2.jpg') no-repeat center center;
     /*image from https://film.wp.pl/firmowa-gwiazdka-biurowe-przeboje-recenzja-6067359094149761a */
     background-size: cover;
@@ -328,7 +356,7 @@ body {
     margin-left: 6px;
     margin-right: 6px;
     border-radius: 10px;
-    
+
 }
 
 .events-form-styles {
@@ -338,18 +366,19 @@ body {
 
 .events-form-styles input {
     width: 66%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
     border-right: none;
     border-left: none;
     border-top: none;
     border-bottom: 2px solid #ffffff;
-    padding-top: 20px;
+    padding-top: 2px;
     padding-bottom: 0px;
-    margin-top: 50px;
-
-
+    margin-top: 70px;
+    border-radius: 5px
 }
+
 /* https://stackoverflow.com/questions/1457849/how-to-remove-the-border-highlight-on-an-input-text-element*/
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -358,8 +387,8 @@ button:focus {
 }
 
 
-.events-form-styles button{
-    margin-top: 20px;
+.events-form-styles button {
+    margin-top: 30px;
     font-size: 20px;
     font-weight: 900;
     color: #fafafa;
@@ -367,11 +396,21 @@ button:focus {
     border-color: #d03e3e;
     border-radius: 25px;
     letter-spacing: 1px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 }
 
-.events-form-styles input:last-child{
-        margin-left: -4px;
-        border-bottom: none;
+.events-form-styles button:hover {
+    color: #d03e3e;
+    background-color: #fafafa;
+    border-color: #fafafa;
+}
+
+.events-form-styles input:last-child {
+    margin-left: -4px;
+    border-bottom: none;
 
 }
 
@@ -382,18 +421,20 @@ button:focus {
 
 }
 
-.form-container {
+.events-form-container {
     height: 100%;
     margin: 0;
 }
-.form-detail-styles-1{
+
+.events-form-detail-styles-1 {
     color: #fafafa;
     height: 100%;
     background-color: rgba(0, 0, 0, .7);
     width: 100%;
     border-radius: 9px;
 }
-.form-detail-styles-2{
+
+.events-form-detail-styles-2 {
     color: #fafafa;
     height: 100%;
     background-color: rgba(0, 0, 0, .7);
@@ -401,46 +442,46 @@ button:focus {
     border-radius: 9px;
 }
 
-@media (min-width: 768px){
-    .form-detail-styles-1{
-    color: #fafafa;
-    border-right: solid 4px #d03e3e;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .7);
-    width: 33.3333%;
-    border-radius: 9px;
+@media (min-width: 768px) {
+    .events-form-detail-styles-1 {
+        color: #fafafa;
+        border-right: solid 4px #d03e3e;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .7);
+        width: 33.3333%;
+        border-radius: 9px;
     }
-    .form-detail-styles-2{
-    color: #fafafa;
-    border-right: solid 4px #d03e3e;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .7);
-    width: 33.3333%;
-    border-radius: 9px;
+    .events-form-detail-styles-2 {
+        color: #fafafa;
+        border-right: solid 4px #d03e3e;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .7);
+        width: 33.3333%;
+        border-radius: 9px;
     }
 }
 
-.form-detail-styles-1 h3 {
+.events-form-detail-styles-1 h3 {
     padding: 10px;
     margin-top: 200px;
 }
 
-.form-detail-styles-1 h4 {
+.events-form-detail-styles-1 h4 {
     padding: 10px;
 }
 
-.form-detail-styles-2 h3{
-     padding: 10px;
+.events-form-detail-styles-2 h3 {
+    padding: 10px;
     margin-top: 200px;
 }
 
-.form-detail-style-2 h4 {
+.events-form-detail-style-2 h4 {
     padding: 10px;
 }
 
 
 
-.form-detail-styles {
+.events-form-detail-styles {
     color: #fafafa;
     border-right: solid 4px #d03e3e;
     height: 100%;
@@ -450,14 +491,191 @@ button:focus {
 
 }
 
-.form-detail-styles h3 {
+.events-form-detail-styles h3 {
     padding: 10px;
     margin-top: 200px;
 }
 
-.form-detail-styles h4 {
+.events-form-detail-styles h4 {
     padding: 10px;
 }
+
+/*section-------------------------- contact-------------*/
+
+.container-section-contact {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contact-info-img-1 {
+    background: url('../img/contact-info-img-1.png') no-repeat center center;
+    /*image from http://www.thedjservice.com/blog/wedding-dj-vs-wedding-band// */
+    background-size: cover;
+    height: 600px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 10px
+}
+
+.contact-form-image {
+    background: url('../img/contact-form-image.jpg') no-repeat center center;
+    /*image from http://www.petercousens.com/ */
+    background-size: cover;
+    height: 600px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 10px;
+
+}
+
+.contact-form-styles {
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.contact-form-styles input {
+    width: 66%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid #ffffff;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 55px;
+    border-radius: 5px
+}
+
+.contact-form-styles textarea {
+    width: 66%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid #ffffff;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 70px;
+    border-radius: 5px;
+    resize: none;
+}
+
+/* https://stackoverflow.com/questions/1457849/how-to-remove-the-border-highlight-on-an-input-text-element*/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+.contact-form-styles button {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fafafa;
+    background-color: #d03e3e;
+    border-color: #d03e3e;
+    border-radius: 25px;
+    letter-spacing: 1px;
+     transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.contact-form-styles button:hover {
+    color: #d03e3e;
+    background-color: #fafafa;
+    border-color: #fafafa;
+}
+
+.contact-form-styles input:last-child {
+    margin-left: -4px;
+    border-bottom: none;
+
+}
+
+.contact-form-styles input::placeholder {
+    color: #d03e3e;
+    padding-bottom: -10px;
+    font-size: 18px;
+
+}
+
+.contact-form-styles textarea::placeholder {
+    color: #d03e3e;
+    padding-bottom: -10px;
+    font-size: 18px;
+
+}
+
+.contact-form-container {
+    height: 100%;
+    margin: 0;
+}
+
+.contact-form-detail-styles-1 {
+    color: #fafafa;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    border-radius: 9px;
+}
+
+@media (min-width: 768px) {
+    .contact-form-detail-styles-1 {
+        color: #fafafa;
+        border-right: solid 4px #d03e3e;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .7);
+        width: 33.3333%;
+        border-radius: 9px;
+    }
+
+}
+
+.contact-form-detail-styles-1 h3 {
+    padding: 10px;
+    margin-top: 200px;
+}
+
+.contact-form-detail-styles-1 h4 {
+    padding: 10px;
+}
+
+.contact-form-detail-styles-2 h3 {
+    padding: 10px;
+    margin-top: 200px;
+}
+
+.contact-form-detail-style-2 h4 {
+    padding: 10px;
+}
+
+
+
+.contact-form-detail-styles {
+    color: #fafafa;
+    border-right: solid 4px #d03e3e;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    width: 33.3333%;
+    border-radius: 9px;
+
+}
+
+.contact-form-detail-styles h3 {
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.contact-form-detail-styles h4 {
+    padding: 10px;
+}
+
 
 /*footer---------------------------------------*/
 
@@ -476,23 +694,28 @@ button:focus {
 }
 
 .social-links li {
-    margin-top: 15px;
-    padding: 10px;
+    margin-right: 13px;
+    margin-left: 13px;
+    padding: 13px;
 }
-
 .social-links li a {
-    width: 40px;
-    height: 30px;
-    margin: 15px;
-    font-size: 30px;
-    padding: 15px;
+    font-size: 25px;
     color: #fafafa;
+    background-color: #d03e3e;
+    padding: 6px;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 
 }
-
+.social-links li a i.fa{
+   width: 25px;
+   
+}
 .social-links li a:hover {
-    border: 1px solid;
     border-color: #ea7373;
     background-color: #ea7373;
-    border-radius: 50%;
+    
 }
