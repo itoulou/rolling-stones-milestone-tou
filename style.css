@@ -23,7 +23,7 @@ body {
 .container-header {
     height: 100vh;
     /*code taken from https://css-tricks.com/ */
-    background: url('../img/band_project_stage_3.jpg') no-repeat center center fixed;
+    background: url('./img/band_project_stage_3.jpg') no-repeat center center fixed;
     /*image from http://www.petercousens.com/ */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -36,7 +36,7 @@ body {
 .container-header-gallery {
     height: 100vh;
     /*code taken from https://css-tricks.com/ */
-    background: url('../img/gallery-jumbotron-image.jpg') no-repeat center center fixed;
+    background: url('./img/gallery-jumbotron-image.jpg') no-repeat center center fixed;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -49,7 +49,7 @@ body {
 .container-header-events {
     height: 100vh;
     /*code taken from https://css-tricks.com/ */
-    background: url('../img/events-jumbotron-image.jpg') no-repeat center center fixed;
+    background: url('./img/events-jumbotron-image.jpg') no-repeat center center fixed;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -62,7 +62,7 @@ body {
 .container-header-contact {
     height: 100vh;
     /*code taken from https://css-tricks.com/ */
-    background: url('../img/contact-jumbotron-image.jpg') no-repeat center center fixed;
+    background: url('./img/contact-jumbotron-image.jpg') no-repeat center center fixed;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -362,7 +362,7 @@ body {
 }
 
 .section-styles-gallery .new-album-bg-img {
-    background: url('../img/rollingStonesImages/new-album-2.jpg') no-repeat center center;
+    background: url('./img/rollingStonesImages/new-album-2.jpg') no-repeat center center;
     /*image from http://www.petercousens.com/ */
     background-size: cover;
     height: 600px;
@@ -374,7 +374,7 @@ body {
 }
 
 .section-styles-gallery .band-photos-bg-img {
-    background: url('../img/rollingStonesImages/collage.jpg') no-repeat center center;
+    background: url('./img/rollingStonesImages/collage.jpg') no-repeat center center;
     /*image from http://www.petercousens.com/ */
     background-size: cover;
     height: 1000px;
@@ -392,7 +392,7 @@ body {
 }
 
 .events-info-img-1 {
-    background: url('../img/events-info-img-1.jpg') no-repeat center center;
+    background: url('./img/events-info-img-1.jpg') no-repeat center center;
     /*image from http://www.thedjservice.com/blog/wedding-dj-vs-wedding-band// */
     background-size: cover;
     height: 600px;
@@ -402,7 +402,7 @@ body {
 }
 
 .events-info-img-2 {
-    background: url('../img/events-info-img-2.jpg') no-repeat center center;
+    background: url('./img/events-info-img-2.jpg') no-repeat center center;
     /*image from https://film.wp.pl/firmowa-gwiazdka-biurowe-przeboje-recenzja-6067359094149761a */
     background-size: cover;
     height: 600px;
@@ -412,7 +412,7 @@ body {
 }
 
 .events-form-image {
-    background: url('../img/events-form-image.jpg') no-repeat center center;
+    background: url('./img/events-form-image.jpg') no-repeat center center;
     /*image from http://www.petercousens.com/ */
     background-size: cover;
     height: 600px;
@@ -554,7 +554,7 @@ button:focus {
 }
 
 .contact-info-img-1 {
-    background: url('../img/contact-info-img-1.png') no-repeat center center;
+    background: url('./img/contact-info-img-1.png') no-repeat center center;
     /*image from http://www.thedjservice.com/blog/wedding-dj-vs-wedding-band// */
     background-size: cover;
     height: 600px;
@@ -564,7 +564,7 @@ button:focus {
 }
 
 .contact-form-image {
-    background: url('../img/contact-form-image.jpg') no-repeat center center;
+    background: url('./img/contact-form-image.jpg') no-repeat center center;
     /*image from http://www.petercousens.com/ */
     background-size: cover;
     height: 600px;
