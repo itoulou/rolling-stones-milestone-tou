@@ -177,6 +177,14 @@ body {
     border-right: none;
 }
 
+#nav li:first-child:hover {
+    border-left: 1px solid #fff;
+}
+
+#nav li:last-child:hover {
+    border-right: 1px solid #fff;
+}
+
 #nav li:hover {
     background-color: #d03e3e;
     padding: 0 60px;
