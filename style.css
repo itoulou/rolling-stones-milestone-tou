@@ -165,13 +165,21 @@ body {
     margin-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
-    border-right: 1px solid;
-    border-right-color: #ffffff;
-
+    border-right: 1px solid #fff;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    margin-right: -4px;
+    -o-transition: all .2s ease-in-out;
 }
 
 #nav li:last-child {
     border-right: none;
+}
+
+#nav li:hover {
+    background-color: #d03e3e;
+    padding: 0 60px;
 }
 
 #nav li a {
@@ -190,10 +198,12 @@ body {
     letter-spacing: 4px;
 }
 
-#nav li a:hover {
-    text-decoration: none;
-    color: #d03e3e;
-}
+
+
+/*#nav li a:hover {*/
+/*    text-decoration: none;*/
+/*    color: #d03e3e;*/
+/*}*/
 
 /*navbar--------------------------Mobile-------------*/
 
