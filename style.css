@@ -407,23 +407,10 @@ body {
     -o-transition: all .2s ease-in-out;
 }
 
-.gallery-photos a {
-    
-}
-
 .gallery-photos a div:hover,
 .gallery-photos a div:focus{
     border: 2px solid #d03e3e;
 }
-/*.section-styles-gallery .band-photos-bg-img {*/
-/*    background: url('./img/rollingStonesImages/collage.jpg') no-repeat center center;*/
-    /*image from http://www.petercousens.com/ */
-/*    background-size: cover;*/
-/*    height: 1000px;*/
-/*    margin-left: 6px;*/
-/*    margin-right: 6px;*/
-/*    border-radius: 10px;*/
-/*}*/
 
 /*section-------------------------- Events-------------*/
 
@@ -878,7 +865,7 @@ button:focus {
         width: 50%;
     }
     
-    .section-styles-gallery .new-ablum-styles a {
+    .section-styles-gallery a {
         text-decoration: none;
         font-weight: 600;
         color: #ff001e;
