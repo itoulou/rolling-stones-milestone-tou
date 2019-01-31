@@ -227,15 +227,15 @@ body {
 
 .btn-primary:focus {
     color: #fafafa;
-    background-color: rgba(208, 62, 62, .9);
-    border-color: #d03e3e;
+    background-color: rgba(208, 62, 62, .9) !important;
+    border-color: #d03e3e!important;
 }
 
 .btn-primary:active {
     color: #fafafa;
-    background-color: rgba(208, 62, 62, .9);
-    border-color: #d03e3e;
-    border-radius: 50%
+    background-color: rgba(208, 62, 62, .9) !important;
+    border-color: #d03e3e !important;
+    border-radius: 50% !important;
 }
 
 .open>.dropdown-toggle.btn-primary:focus {
@@ -383,22 +383,45 @@ body {
 
 }
 
-.section-styles-gallery .band-photos-bg-img {
-    background: url('./img/rollingStonesImages/collage.jpg') no-repeat center center;
-    /*image from http://www.petercousens.com/ */
+.gallery-photos div {
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height: 1000px;
-    margin-left: 6px;
-    margin-right: 6px;
-    border-radius: 10px;
+    align-items: center;
+    padding: 1px;
+    margin-bottom: 2px;
+    height: 150px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
 }
+
+.gallery-photos a {
+    
+}
+
+.gallery-photos a div:hover,
+.gallery-photos a div:focus{
+    border: 2px solid #d03e3e;
+}
+/*.section-styles-gallery .band-photos-bg-img {*/
+/*    background: url('./img/rollingStonesImages/collage.jpg') no-repeat center center;*/
+    /*image from http://www.petercousens.com/ */
+/*    background-size: cover;*/
+/*    height: 1000px;*/
+/*    margin-left: 6px;*/
+/*    margin-right: 6px;*/
+/*    border-radius: 10px;*/
+/*}*/
 
 /*section-------------------------- Events-------------*/
 
 .container-section-events {
     height: 100%;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding: 20px 0 30px 0;
 }
 
 .events-info-img-1 {
@@ -582,6 +605,13 @@ button:focus {
     margin-right: 6px;
     border-radius: 10px;
 
+}
+
+.contact-form-div {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .contact-form-styles {
@@ -797,7 +827,10 @@ button:focus {
     .jumbotron-styles h1 {
         font-size: 100px;
     }
-
+    .gallery-photos div {
+        height: 300px;
+    }
+    
     .events-form-detail-styles-1 {
         color: #fafafa;
         border-right: solid 4px #d03e3e;
