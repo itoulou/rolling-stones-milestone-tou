@@ -1,9 +1,29 @@
 # <a href="https://itoulou.github.io/rolling-stones-milestone-tou/" target="_blank">Rolling Stones</a>
 
-The brief for this assignment was to produce a web application riddle based game
-where users ask a series of riddles.
+The brief for this assignment was to build a static web application about a rock band.
+Users are able to listen to their old and new music and wish to 
+book the band for an event of their choosing. The band also have a social media
+presence on Facebook, Twitter and YouTube.
+
+This project was based on The Rolling Stones due to the years of experience and 
+general stature of the band. The bright colour schemes of their album covers
+and symbols for me provided the best aesthetics for this static sight and allowed
+me to practice several features of HTML, CSS and Bootstrap framework for my first
+project.
 
 # UX
+This web application was targeted towards new and exisiting fans who both already
+love their music or are keen to expand their love for music and wish to explore
+the great Rolling Stones. For those who are exisiting fans can visit the site to 
+see and listen to all the band's latest music.
+
+Event planners, or people who require a band can request the band to play at an
+event and a date of their choosing. This can be achieved by the user filling out
+a form.
+
+Similarly, if a user has query, issue or general question, then they can 
+fill out a different form in order to contact the theoretical support team
+of the site to deal with the users' queries. 
 
 # Features
 ### All pages
@@ -104,7 +124,7 @@ _Contact_
 
 #### __Videos__
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=J4aKFH1liko
-" target="_blank"><img src="http://img.youtube.com/vi/J4aKFH1liko/0.jpg" 
+" target="_blank"><img src="http://img.youtube.com/vi/J4aKFH1liko/0.jpg"  
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
