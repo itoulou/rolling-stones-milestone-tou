@@ -132,3 +132,4 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 * A big thank you to Victor Miclovich my mentor who's been extremely helpful with
 the completion of this project.
 * Another big thank you to all the Tutors at Code Institute for coping with my multitude of questions on a daily basis.
+* And of course the Rolling Stones!
