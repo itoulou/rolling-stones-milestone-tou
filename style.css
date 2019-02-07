@@ -291,10 +291,14 @@ body {
 
 /*section-------------------------- home-------------*/
 
-.intro-video-container {}
+/*.intro-video-container {*/
+/*    width: 100%;*/
+/*}*/
 
 .intro-video-container iframe {
     border: 4px solid #d03e3e;
+    width: 100%;
+    height: 250px;
 }
 
 .blockquote-styles blockquote {
@@ -822,6 +826,11 @@ button:focus {
     .jumbotron-styles h1 {
         font-size: 100px;
     }
+    
+    .intro-video-container iframe {
+        width: 50%;
+    }
+    
     .gallery-photos div {
         height: 300px;
     }
