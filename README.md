@@ -25,6 +25,42 @@ Similarly, if a user has query, issue or general question, then they can
 fill out a different form in order to contact the theoretical support team
 of the site to deal with the users' queries. 
 
+### Home
+__md/lg__
+
+![home image](/wireframes/images/home-md-lg.png "home md lg")
+
+__xs/sm__
+
+![home image](/wireframes/images/home-xs-sm.png "home xs sm")
+
+### Gallery
+__md/lg__
+
+![gallery image](/wireframes/images/gallery-md-lg.png "gallery md lg")
+
+__xs/sm__
+
+![gallery image](/wireframes/images/gallery-xs-sm.png "gallery xs sm")
+
+### Events
+__md/lg__
+
+![events image](/wireframes/images/events-md-lg.png "events md lg")
+
+__xs/sm__
+
+![events image](/wireframes/images/events-xs-sm.png "events xs sm")
+
+### Contact
+__md/lg__
+
+![contact image](/wireframes/images/contact-md-lg.png "contact md lg")
+
+__xs/sm__
+
+![contact image](/wireframes/images/contact-xs-sm.png "contact xs sm")
+
 # Features
 ### All pages
 * __Navbar__
